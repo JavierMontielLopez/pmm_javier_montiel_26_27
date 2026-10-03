@@ -1,5 +1,6 @@
-import 'package:aplicacion_prueba/widgets/menu_lateral.dart';
 import 'package:flutter/material.dart';
+
+import 'package:aplicacion_prueba/widgets/menu_lateral.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {

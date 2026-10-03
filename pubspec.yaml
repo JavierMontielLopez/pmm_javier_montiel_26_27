@@ -21,3 +21,6 @@ flutter:
   uses-material-design: true
   assets:
     - assets\img\foto_mia.jpg
+    - assets\img\img_moto1.jpg
+    - assets\img\img_moto2.jpg
+    - assets\img\img_moto3.jpg

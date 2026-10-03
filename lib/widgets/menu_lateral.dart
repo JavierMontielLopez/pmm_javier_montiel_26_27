@@ -1,3 +1,6 @@
+import 'package:aplicacion_prueba/screens/pantalla_3fotos_columna.dart';
+import 'package:aplicacion_prueba/screens/pantalla_5_iconos_fila.dart';
+import 'package:aplicacion_prueba/screens/pantalla_5_imagenes_columa.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -39,7 +42,7 @@ class MenuLateral extends StatelessWidget {
             },
           ),
           ListTile(
-            leading: const Icon(Icons.image),
+            leading: const Icon(Icons.account_box),
             title: Text('Foto con nombre', style: GoogleFonts.abel()),
             onTap: () {
               Navigator.pop(context);
@@ -47,6 +50,45 @@ class MenuLateral extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: (context) => const PantallaFotoNombre(),
+                ),
+              );
+            },
+          ),
+          ListTile(
+            leading: const Icon(Icons.image),
+            title: Text('3 Fotos Columna', style: GoogleFonts.abel()),
+            onTap: () {
+              Navigator.pop(context);
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const Pantalla3fotosColumna(),
+                ),
+              );
+            },
+          ),
+          ListTile(
+            leading: const Icon(Icons.air),
+            title: Text('5 Iconos Fila', style: GoogleFonts.abel()),
+            onTap: () {
+              Navigator.pop(context);
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const Pantalla5IconosFila(),
+                ),
+              );
+            },
+          ),
+          ListTile(
+            leading: const Icon(Icons.camera),
+            title: Text('5 Imágenes Columna', style: GoogleFonts.abel()),
+            onTap: () {
+              Navigator.pop(context);
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const Pantalla5ImagenesColuma(),
                 ),
               );
             },

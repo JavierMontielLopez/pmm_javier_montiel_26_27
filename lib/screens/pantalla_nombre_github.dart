@@ -40,7 +40,7 @@ class PantallaNombreGithub extends StatelessWidget {
                 'Mi Github',
                 textAlign: TextAlign.center,
                 style: GoogleFonts.robotoMono(
-                  fontSize: 14,
+                  fontSize: 20,
                   color: Colors.blueAccent,
                   decoration: TextDecoration.underline,
                 ),
